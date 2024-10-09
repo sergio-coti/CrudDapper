@@ -12,11 +12,17 @@ namespace ProjetoAula03
             Console.WriteLine("(2) ATUALIZAR ESTOQUE");
             Console.WriteLine("(3) EXCLUIR ESTOQUE");
             Console.WriteLine("(4) CONSULTAR ESTOQUE");
+            Console.WriteLine("(5) CADASTRAR PRODUTO");
+            Console.WriteLine("(6) ATUALIZAR PRODUTO");
+            Console.WriteLine("(7) EXCLUIR PRODUTO");
+            Console.WriteLine("(8) CONSULTAR PRODUTOS");
+            Console.WriteLine("(9) RELATÓRIO DE PRODUTOS");
 
             Console.Write("\nINFORME A OPÇÃO DESEJADA: ");
             var opcao = int.Parse(Console.ReadLine());
 
             var estoqueController = new EstoqueController();
+            var produtoController = new ProdutoController();
 
             switch(opcao)
             {
@@ -31,6 +37,21 @@ namespace ProjetoAula03
                     break;
                 case 4:
                     estoqueController.ConsultarEstoques();
+                    break;
+                case 5:
+                    produtoController.CadastrarProduto();
+                    break;
+                case 6:
+                    produtoController.AtualizarProduto();
+                    break;
+                case 7:
+                    produtoController.ExcluirProduto();
+                    break;
+                case 8:
+                    produtoController.ConsultarProdutos();
+                    break;
+                case 9:
+                    produtoController.GerarRelatorio();
                     break;
                 default:
                     Console.WriteLine("\nOPÇÃO INVÁLIDA!");

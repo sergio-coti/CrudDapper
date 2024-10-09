@@ -21,3 +21,4 @@ C:\CSharp_SQS_Manha\ProjetoAula03\ProjetoAula03\obj\Debug\net8.0\refint\ProjetoA
 C:\CSharp_SQS_Manha\ProjetoAula03\ProjetoAula03\obj\Debug\net8.0\ProjetoAula03.pdb
 C:\CSharp_SQS_Manha\ProjetoAula03\ProjetoAula03\obj\Debug\net8.0\ProjetoAula03.genruntimeconfig.cache
 C:\CSharp_SQS_Manha\ProjetoAula03\ProjetoAula03\obj\Debug\net8.0\ref\ProjetoAula03.dll
+C:\CSharp_SQS_Manha\ProjetoAula03\ProjetoAula03\obj\Debug\net8.0\ProjetoAula03.sourcelink.json
